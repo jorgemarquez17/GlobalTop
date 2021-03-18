@@ -16,6 +16,7 @@ header{
     display: flex;
     color: black;
     padding-left: 2em;
+    background-color:#6E2C00 ;
 }
 header figure{
     padding: 1em;
@@ -30,4 +31,14 @@ header nav{
 
 nav a{
         padding: 0 1em;
+}
+
+main{
+    padding: 3em;
+    text-justify: auto;
+    width: 80%;
+}
+
+footer{
+    background-color: #6E2C00;
 }

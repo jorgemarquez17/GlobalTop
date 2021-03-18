@@ -13,24 +13,35 @@ html{
 }
 
 header{
-    display: flex;
-   
+    display: inline-flex;
+    background-color: #6E2C00;
     padding-left: 2em;
 }
-header figure{
-    padding: 1em;
-   width: 28%;
+
+.title_header{
+color: blanchedalmond;
 }
+
+.p_header{
+color: blanchedalmond;
+display: block;
+}
+
+/* header figure{
+    padding: 1em;
+    width: 28%;
+} */
 
 header nav{
     width: 50%;
     padding-top: 3em;
-    color: brown;
+    color: #6E2C00;
     display: inline-flex;
    }
 
 nav a{
         padding: 0 1em;
+        
 }
 main{
     padding: 3em;
@@ -40,14 +51,23 @@ main{
 main ul{
     padding: 3em;
 }
-h1{
-    color: brown;
+.Title_body{
+    color: #6E2C00;
     font-size: 23px;
     text-align: center;
     
 }
 
-h2{
-color: brown;
+.Subtitle_body{
+color: #6E2C00;
+}
 
+ul li{
+  background-color: #FAD7A0 ;
+    
+}
+
+
+footer{
+    background-color: #6E2C00;
 }

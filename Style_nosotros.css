@@ -13,8 +13,8 @@ html{
 }
 header{
     display: flex;
-    color: black;
     padding-left: 2em;
+    background-color: #6E2C00;
 }
 header figure{
     padding: 1em;
@@ -31,7 +31,17 @@ nav a{
         padding: 0 1em;
 }
 
-body{
+/* body{
     width: 90%;
     padding: 3em;
+} */
+
+main{
+    padding: 3em;
+    text-justify: auto;
+    width: 80%;
+}
+
+footer{
+    background-color: #6E2C00;
 }
