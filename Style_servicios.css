@@ -16,47 +16,43 @@ html{
 header{
     display: inline-flex;
     background-color: #6E2C00;
-    padding-left: 2em;
+    padding-left: 0.1rem;
+    width: 100%;
+    
 }
 
-.title_header{
-color: blanchedalmond;
-}
-
-.p_header{
-color: blanchedalmond;
-display: block;
-}
-
-/* header figure{
-    padding: 1em;
-    width: 28%;
-} */
+header figure{
+    padding: 0rem 0.4rem;
+    width: 20%;
+} 
 
 header nav{
     width: 50%;
-    padding-top: 3em;
-    /*color: #6E2C00;*/
+    padding-top: 6rem;
     display: inline-flex;
+    padding-left: 25rem;
    }
 
 nav a{
-        padding: 0 1em;
+        padding: 0 3rem;
         color: white;
 }
 main{
-    padding: 3em;
+    padding: 7rem;
     text-justify: auto;
-    width: 80%;
+    width: 90%;
 }
 main ul{
-    padding: 3em;
+    padding: 0.3rem;
 }
 .Title_body{
     color: #6E2C00;
-    font-size: 23px;
+    font-size: 2.3rem;
     text-align: center;
-    
+}
+
+main p{
+    text-justify: auto;
 }
 
 .Subtitle_body{
