@@ -38,12 +38,47 @@ nav a{
         color: white;
 }
 main{
-    padding: 7rem;
-    text-justify: auto;
-    width: 90%;
+    
+    
+    width: 100%;
+    
 }
+
+section img{
+    padding-top: 10rem;
+    width: 55%;
+    display:block;
+    margin:auto;
+    padding-bottom: 10rem;
+   
+} 
 
 footer{
     background-color: #6E2C00;
     position: bottom;
 }
+
+@media (max-width: 550px){
+
+    .container{
+        flex-direction: column;
+    }   
+    header{
+        margin: 0em;
+        padding: 0em;
+        justify-content: center;
+        
+     }
+     header a{
+         font-size: 1.9vw;
+         justify-content: center;
+     }    
+ 
+     header img{
+         width: auto;
+     }
+ 
+     section{
+         width: auto;
+         justify-content: center;
+     }
