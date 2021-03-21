@@ -22,20 +22,23 @@ header{
 }
 
 header figure{
-    padding: 0rem 0.4rem;
+    padding: 0rem 1rem;
     width: 20%;
 } 
 
 header nav{
-    width: 50%;
+    width: 80%;
     padding-top: 6rem;
     display: inline-flex;
-    padding-left: 25rem;
+    padding-left: 20rem;
    }
 
 nav a{
         padding: 0 3rem;
         color: white;
+}
+nav li{
+    display: inline;
 }
 main{
     padding: 7rem;
