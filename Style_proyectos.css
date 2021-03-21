@@ -5,38 +5,42 @@
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.6rem;
-    box-sizing: border-box;
+    box-sizing: border-box;    
 }
 
 html{
     font-size: 62.5%;
+}
 
-}
+
 header{
-    display: flex;
-    color: black;
-    padding-left: 2em;
-    background-color:#6E2C00 ;
+    display: inline-flex;
+    background-color: #6E2C00;
+    padding-left: 0.1rem;
+    width: 100%;
+    
 }
+
 header figure{
-    padding: 1em;
-   width: 28%;
-}
+    padding: 0rem 0.4rem;
+    width: 20%;
+} 
 
 header nav{
     width: 50%;
-    padding-top: 3em;
+    padding-top: 6rem;
     display: inline-flex;
-}
+    padding-left: 25rem;
+   }
 
 nav a{
-        padding: 0 1em;
+        padding: 0 3rem;
+        color: white;
 }
-
 main{
-    padding: 3em;
+    padding: 7rem;
     text-justify: auto;
-    width: 80%;
+    width: 90%;
 }
 
 footer{
