@@ -27,10 +27,10 @@ header figure{
 } 
 
 header nav{
-    width: 50%;
+    width: 80%;
     padding-top: 6rem;
     display: inline-flex;
-    padding-left: 25rem;
+    padding-left: 20rem;
    }
 
 nav a{
