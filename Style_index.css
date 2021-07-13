@@ -5,7 +5,8 @@
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.6rem;
-    box-sizing: border-box;    
+    box-sizing: border-box;  
+    background-color: #ECF0F1 ;    
 }
 
 html{
@@ -15,44 +16,103 @@ html{
 
 header{
     display: inline-flex;
-    background-color: #6E2C00;
     padding-left: 0.1rem;
-    width: 100%;
+    width:100%;
     
 }
 
 header figure{
-    padding: 0rem 0.4rem;
-    width: 20%;
+    padding: 2rem 3rem;
+    width: 15%;
 } 
 
 header nav{
-    width: 50%;
-    padding-top: 6rem;
+    width: 80%;
+    padding-top: 8rem;
     display: inline-flex;
     padding-left: 25rem;
    }
 
 nav a{
-        padding: 0 3rem;
-        color: white;
-}
-main{
-    padding: 7rem;
-    text-justify: auto;
-    width: 90%;
+        padding: 1rem 3rem;
+        color: #3498DB;
+        
 }
 
-/* body{
+ul li{
+    display: inline;
+
+}
+
+main{
+    margin: auto;
+    width: 100%; 
+}
+
+.container-index{
+    display:flex;
+    flex-wrap: wrap;  
+    position: relative;
+    
+}
+
+.c-i1, .c-i2, .c-i3{
+    min-width: 20rem;
+    height: 20rem;
+}
+
+
+.c-i1{
+    width: 50%;
+    height: 35rem; 
+    background: linear-gradient(to bottom right,#1ABC9C, white, #3498DB ); 
+    
+    
+}
+
+.c-i1 p{
+    font-family: Georgia, Cambria, Times, "Times New Roman";
+    font-size: 4rem;
+    position: absolute;
+    top: 12rem;
+    left: 11rem;
+    width: 50%;
+    background-color: transparent;
+}
+
+
+.c-i2{
+    height: 35rem;
+    width: 50%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.c-i2 p{
+    margin: auto;
+    font-size: 1.8rem;
+    padding-top: 12rem;
+    text-align: justify;
+}
+
+.c-i3{
+    margin: auto;
     width: 90%;
-    padding: 3em;
-} */
+    padding-top: 3rem;
+    padding-left: 3rem;
+}
+
+.c-i3 P{
+    text-align: justify;
+    font-size: 1.8rem;
+}
 
 body p{
     text-justify: auto;
 }
 
 footer{
-    background-color: #6E2C00;
+    color: #3498DB;
+    background-color: #AED6F1;
     position: fixed;
 }

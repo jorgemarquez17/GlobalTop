@@ -5,7 +5,8 @@
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.6rem;
-    box-sizing: border-box;    
+    box-sizing: border-box; 
+    background-color: #ECF0F1 ;     
 }
 
 html{
@@ -15,70 +16,130 @@ html{
 
 header{
     display: inline-flex;
-    background-color: #6E2C00;
     padding-left: 0.1rem;
     width: 100%;
     
 }
 
 header figure{
-    padding: 0rem 0.4rem;
-    width: 20%;
+    padding: 2rem 3rem;
+    width: 15%;
 } 
 
 header nav{
-    width: 50%;
-    padding-top: 6rem;
+    width: 80%;
+    padding-top: 8rem;
     display: inline-flex;
     padding-left: 25rem;
-   }
+    }
 
 nav a{
         padding: 0 3rem;
-        color: white;
+        color: #3498DB;
 }
-main{
+
+ul li{
+    display: inline;
+}
+
+
+  main{
     
+    width: 80%;
+    margin: auto    ;
     
-    width: 100%;
     
 }
 
-section img{
-    padding-top: 10rem;
-    width: 55%;
-    display:block;
-    margin:auto;
-    padding-bottom: 10rem;
-   
+.container-nosotros{
+   display:flex;
+   flex-wrap: wrap; 
+}
+
+.c1, .c2, .c3, .c4, .c5, .c6, .c7, .c8, .c9{
+    width: 90%;
+    min-width: 150px;
+    height: 150px;
+    
+}
+
+.c1{
+    text-align: left;
+    padding: 3rem 3rem;    
+    /* background-color: #5DADE2 */
 } 
 
-footer{
-    background-color: #6E2C00;
-    position: bottom;
+.c2{
+    padding: 2rem;
 }
 
-@media (max-width: 550px){
-
-    .container{
-        flex-direction: column;
-    }   
-    header{
-        margin: 0em;
-        padding: 0em;
-        justify-content: center;
+.c2 img{
+    width: 25%;
         
-     }
-     header a{
-         font-size: 1.9vw;
-         justify-content: center;
-     }    
- 
-     header img{
-         width: auto;
-     }
- 
-     section{
-         width: auto;
-         justify-content: center;
-     }
+}
+
+.c3 img{
+    width: 40%;
+    /* background-color: #b4d2f7; */
+}
+
+.c4{
+    padding: 3rem 3rem;
+    /* background-color: #3498DB; */
+}
+
+.c5{
+    padding: 4rem 4rem;
+    /* background-color: #5DADE2; */
+}
+
+.c6 img{
+    width: 20%;
+        align-content: center;
+    /* background-color: #6E2C00; */
+}
+
+.c7 img{
+    width: 20%;
+    
+    /* background-color: beige; */
+}
+
+.c8{
+    padding: 3rem 3rem;
+    /* background-color: #5DADE2; */
+}
+
+
+
+
+footer{
+    background-color: #ffffff;
+    position: bottom;
+    color: #3498DB;
+
+}
+
+ @media (min-width: 600px){
+    .c1, .c2{
+        width: 50%;
+    }
+
+    .c3{
+        width: 25%;
+    }
+   
+    .c4{
+        width: 75%;
+    }
+    .c5{
+        width: 100%;
+    }
+    .c6, .c7{
+        width: 50%;
+    }
+    .c8{
+        width: 100%;
+    }
+    
+} 
