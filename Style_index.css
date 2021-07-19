@@ -6,7 +6,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.6rem;
     box-sizing: border-box;  
-    background-color: #ECF0F1 ;    
+    background-color: #ffffff ;    
 }
 
 html{
@@ -63,7 +63,8 @@ main{
 
 
 .c-i1{
-    width: 50%;
+    
+    width: 100%;
     height: 35rem; 
     background: linear-gradient(to bottom right,#1ABC9C, white, #3498DB ); 
     
@@ -72,12 +73,11 @@ main{
 
 .c-i1 p{
     font-family: Georgia, Cambria, Times, "Times New Roman";
-    font-size: 4rem;
-    position: absolute;
-    top: 12rem;
-    left: 11rem;
-    width: 50%;
+    font-size: 6rem;
+    padding-top: 14rem; 
+    width: 60%;
     background-color: transparent;
+    margin: auto;
 }
 
 
@@ -91,28 +91,41 @@ main{
 .c-i2 p{
     margin: auto;
     font-size: 1.8rem;
-    padding-top: 12rem;
+    padding-top: 9rem;
     text-align: justify;
 }
 
 .c-i3{
     margin: auto;
-    width: 90%;
-    padding-top: 3rem;
+    width: 50%;
+    padding-top: 1rem;
     padding-left: 3rem;
 }
 
 .c-i3 P{
     text-align: justify;
     font-size: 1.8rem;
+    width: 90%;
 }
 
 body p{
     text-justify: auto;
 }
 
+.img-index{
+    width: 40%;
+    height: 50rem;
+    margin: auto;
+    background-color: transparent;
+}
+   
+
 footer{
+    background-color: #ffffff;
+    position: bottom;
     color: #3498DB;
-    background-color: #AED6F1;
-    position: fixed;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 3rem;
+    
 }
