@@ -213,55 +213,74 @@ footer{
         width: 90%;
         margin: 0%;
         /* padding: 0%; */
+        
+    }
+
+    .c6, .c7{
+        /* margin: auto; */
+        display: inline;
+        height: 7rem;
     }
 
     .c1{
-        order: 1;
+        margin: auto;
+        padding: 3%;
+        order: 0;
         text-align: justify;
 
     }
+    .c2{
+        order: 1;
+        position: relative; bottom: 10rem;
+    }
     .c2 img{
-        order: 2;
+        
         margin:auto;
         display: block;
         width: 35%;
     }
     .c3 img{
-        order: 4;
+        display:none;
+        visibility: hidden;
         margin:auto;
         display: block;
         width: 30%;
     }
    
     .c4{
-        order: 3;
-        /* position: absolute; */
+        order: 2;
+        margin: auto;
+        position: relative; bottom: 6rem;
     }
     .c5{
-        order: 5;
+        order: 3;
+        padding: 0%;
+        margin: auto;
         text-align: justify;
+        position: relative; bottom: 9rem;
     }                
     .c6{
-        
-        width: 40%;
-        order: 6;
+        width: 30%;
+        order: 4;
+        position: relative; left: 5rem;
     }
     .c6 img{
         width: 35%;
     }
 
     .c7{
-        width: 40%;
-        order: 7;
-        
+        width: 37%;
+        order: 5;
+        position: relative; left: 21rem; bottom:9rem;
     }
     .c7 img{
         width: 25%;
     }
     .c8{
-        order: 8;
+        order: 6;
         text-align: justify;
-        
+        position: relative; bottom: 10rem;
+        margin: auto;
     }
     
     footer{
