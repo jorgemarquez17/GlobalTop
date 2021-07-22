@@ -8,15 +8,13 @@
     box-sizing: border-box;
     background-color: #ffffff ;      
 }
-
 html{
     font-size: 62.5%;
 }
 
 
-header{
+.encabezado{
     display: inline-flex;
-    padding-left: 0.1rem;
     width: 100%;
     
 }
@@ -26,33 +24,34 @@ header figure{
     width: 15%;
 } 
 
+
 header nav{
     width: 80%;
     padding-top: 8rem;
     display: inline-flex;
     padding-left: 25rem;
-   }
+    }
 
 nav a{
-        padding: 0 3rem;
+        padding: 1rem 3rem;
         color: #3498DB;
 }
 
 ul li{
     display: inline;
+
 }
 
 main{
-    padding: 7rem;
-    text-justify: auto;
     width: 90%;
+    margin: auto;
 }
 
 iframe{
-    width: 70%;
-    height: 50rem;
-    padding-top: 7rem;
-}
+    width: 100%;
+    
+    
+}  
 
 footer{
     background-color: #ffffff;
@@ -62,3 +61,62 @@ footer{
     text-align: center;
     padding-bottom: 3rem;
 }
+
+@media (max-width:475px) {
+    *{
+        font-size: 1.3rem;
+    } 
+    .encabezado{
+        width: 100%;
+        height: auto;
+        display: block;
+        padding: 0%;
+        padding-bottom: 1rem;    
+                
+    }
+    header figure{
+        margin: auto;
+        padding: 0%;
+        width: 40%;
+        position: relative;
+        padding: 1%;
+        
+        
+    }
+    header nav{
+        margin: auto;
+        width: 90%;        
+        display: flex;
+        position: relative;
+        padding-top: 0%;
+        padding: 0%;
+        padding-left: 0%;
+        top: 0%;
+        
+    }
+       nav a{
+        
+        font-size: 0%;
+        font-size: 1.1rem;
+        padding: 0%;
+        color: #3498DB;
+        padding-left: 1rem;
+    }   
+    .list-nav{
+        display: inline;
+        text-align: center;
+        
+        
+    }
+
+    ul li{
+        display: inline;
+        text-align: center;
+        margin: auto;
+       }
+
+    footer{
+        font-size: 1.0rem;
+        width: 90%;
+    }
+    }

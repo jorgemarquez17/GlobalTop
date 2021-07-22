@@ -14,9 +14,8 @@ html{
 }
 
 
-header{
+.encabezado{
     display: inline-flex;
-    padding-left: 0.1rem;
     width: 100%;
     
 }
@@ -82,3 +81,91 @@ footer{
     text-align: center;
     padding-bottom: 3rem;
 }
+
+@media (max-width:475px) {
+    *{
+        font-size: 1.3rem;
+    } 
+    .encabezado{
+        width: 100%;
+        height: auto;
+        display: block;
+        padding-bottom: 1rem;    
+                
+    }
+    header figure{
+        margin: auto;
+        padding: 0%;
+        width: 40%;
+        position: relative;
+        padding: 1%;
+        
+        
+    }
+    header nav{
+        margin: auto;
+        width: 100%;        
+        display: flex;
+        position: relative;
+        padding-top: 0%;
+        padding: 0%;
+        padding-left: 0%;
+        top: 0%;
+        
+    }
+       nav a{
+        font-size: 0%;
+        font-size: 1.1rem;
+        padding: 0%;
+        color: #3498DB;
+        padding-left: 2rem;
+    }   
+    .list-nav{
+        
+        display: inline;
+        text-align: center;
+        
+       }
+
+       
+
+    main{
+        width: 100%;
+        padding: 0%;
+        
+    }
+
+    section{
+        margin: 0%;
+        padding: 7%;
+        width: 100%;
+        align-items: center;
+        padding-bottom: 1rem;
+    }
+
+    li{
+        
+        
+    }
+
+    h1{
+        font-size: 1rem;
+    }
+    p{
+        text-align: justify;
+    }
+    h2{
+        font-size: 1.2rem;
+    }
+    footer{
+        
+        font-size: 1.0rem;
+        width: 90%;
+    }
+
+    .p-footer{
+        margin: auto;
+        text-align: center;
+    }
+    }
+
