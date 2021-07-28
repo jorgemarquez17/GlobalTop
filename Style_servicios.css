@@ -17,7 +17,7 @@ html{
 .encabezado{
     display: inline-flex;
     width: 100%;
-    
+    box-shadow: 2px 2px 5px #999;
 }
 
 header figure{
@@ -52,6 +52,7 @@ main{
 }
 main ul{
     padding: 0.3rem;
+    
 }
 .Title_body{
     color: #3498DB;
@@ -61,6 +62,7 @@ main ul{
 
 main p{
     text-justify: auto;
+    
 }
 
 .Subtitle_body{

@@ -17,7 +17,7 @@ html{
 .encabezado{
     display: inline-flex;
     width: 100%;
-    
+    box-shadow: 2px 2px 5px #999;
 }
 
 header figure{
@@ -30,11 +30,13 @@ header nav{
     padding-top: 8rem;
     display: inline-flex;
     padding-left: 25rem;
+    
     }
 
 nav a{
         padding: 1rem 3rem;
         color: #3498DB;
+        
 }
 
 ul li{
@@ -43,9 +45,9 @@ ul li{
 
 
   main{
-    
+    padding-top: 2rem;
     width: 80%;
-    margin: auto    ;
+    margin: auto;
     
     
 }
@@ -60,12 +62,16 @@ ul li{
     min-width: 150px;
     height: 150px;
     
+    
 }
 
 .c1{
     text-align: justify;
     padding: 3rem 3rem;  
     width: 45%;  
+    
+}
+.c1 p{
     
 } 
 
@@ -78,6 +84,7 @@ ul li{
 
 .c2 img{
     width: 25%;
+    
 }
 .c3{
     width: 45%;
@@ -94,6 +101,9 @@ ul li{
     width: 45%;
     text-align: justify;
     
+}
+.c4 p{
+ 
 }
 
 .c5{

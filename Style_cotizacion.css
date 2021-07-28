@@ -16,7 +16,7 @@ html{
 .encabezado{
     display: inline-flex;
     width: 100%;
-    
+    box-shadow: 2px 2px 5px #999;
 }
 
 header figure{
@@ -45,6 +45,7 @@ ul li{
 main{
     width: 90%;
     margin: auto;
+    padding-top: 2rem;
 }
 
 iframe{
