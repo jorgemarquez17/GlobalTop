@@ -29,8 +29,10 @@ header nav{
     width: 80%;
     padding-top: 8rem;
     display: inline-flex;
-    padding-left: 25rem;
-    }
+    margin: auto;
+    justify-content: center; 
+    text-align: center;
+}
 
 nav a{
         padding: 1rem 3rem;

@@ -29,9 +29,11 @@ header figure{
 header nav{
     width: 80%;
     padding-top: 8rem;
-    flex-wrap: wrap;
-    padding-left: 25rem;
-   }
+    display: inline-flex;
+    margin: auto;
+    justify-content: center; 
+    text-align: center;
+}
 
 nav a{
         padding: 0 3rem;
