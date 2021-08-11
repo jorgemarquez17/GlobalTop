@@ -137,11 +137,56 @@ footer{
     background-color: #ffffff;
     position: bottom;
     color: #3498DB;
-    margin: auto;
-    text-align: center;
     padding-bottom: 3rem;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
     
 }
+.rrss{
+    width: 30%;
+    display: inline-flex;          
+    margin: 0%;
+    padding: 0%;
+    align-items: center;
+}
+
+.icon-face{
+    width: 12%;
+    padding: 0%;
+    margin: 0%;
+    padding-right: 1rem;
+}
+
+.location{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.icon-location{
+width: 9%;
+padding: 0%;
+margin: 0%;
+padding-right: 1rem;
+}
+
+.fono{
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.icon-fono{
+width: 13%;
+padding: 0%;
+margin: 0%;
+padding-right: 1rem;
+}
+
+
+
 
 @media (max-width:1440px) {
     *{
@@ -221,7 +266,7 @@ footer{
     }
     .footer{
         font-size: 1.1rem;
-        width: 90%;        
+        width: 100%;        
     }
 }
 
